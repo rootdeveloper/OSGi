@@ -1,0 +1,320 @@
+[INFO] [04-10-2012 09:46:01] [SpringOsgiExtenderThread-2] [SchedulerSignalerImpl:63] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO] [04-10-2012 09:46:01] [SpringOsgiExtenderThread-2] [QuartzScheduler:215] Quartz Scheduler v.1.6.2 created.
+[INFO] [04-10-2012 09:46:01] [SpringOsgiExtenderThread-2] [RAMJobStore:141] RAMJobStore initialized.
+[INFO] [04-10-2012 09:46:01] [SpringOsgiExtenderThread-2] [StdSchedulerFactory:1224] Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+[INFO] [04-10-2012 09:46:01] [SpringOsgiExtenderThread-2] [StdSchedulerFactory:1228] Quartz scheduler version: 1.6.2
+[INFO] [04-10-2012 09:46:01] [SpringOsgiExtenderThread-2] [QuartzScheduler:2094] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@11415c8
+[INFO] [04-10-2012 09:46:01] [SpringOsgiExtenderThread-2] [DefaultLifecycleProcessor:334] Starting beans in phase 2147483647
+[INFO] [04-10-2012 09:46:01] [SpringOsgiExtenderThread-2] [SchedulerFactoryBean:648] Starting Quartz Scheduler now
+[INFO] [04-10-2012 09:46:01] [SpringOsgiExtenderThread-2] [QuartzScheduler:461] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+[INFO] [04-10-2012 09:46:01] [SpringOsgiExtenderThread-2] [OsgiBundleXmlApplicationContext:327] Publishing application context as OSGi service with properties {org.springframework.context.service.name=nfe-integrador-xml, Bundle-SymbolicName=nfe-integrador-xml, Bundle-Version=0.0.1.SNAPSHOT}
+[INFO] [04-10-2012 09:46:01] [SpringOsgiExtenderThread-2] [ContextLoaderListener:45] Application context successfully refreshed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml))
+[INFO] [04-10-2012 09:46:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:46:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:46:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:46:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:46:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:46:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:46:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:46:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:46:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:45] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:46:45] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:45] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:50] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:46:50] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:50] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:55] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:46:55] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:46:55] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:00] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:00] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:00] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:45] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:45] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:45] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:50] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:50] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:50] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:55] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:47:55] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:47:55] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:00] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:00] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:00] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:45] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:45] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:45] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:50] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:50] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:50] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:55] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:48:55] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:48:55] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:00] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:49:00] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:00] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:49:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:05] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-7] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:49:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:10] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-8] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:49:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:15] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-9] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:49:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:20] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-10] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:49:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 09:49:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 09:49:35] [Timer-1] [OsgiBundleXmlApplicationContext:359] Unpublishing application context OSGi service for bundle nfe-integrador-xml (nfe-integrador-xml)
+[INFO] [04-10-2012 09:49:35] [Timer-1] [OsgiBundleXmlApplicationContext:1025] Closing OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml): startup date [Thu Oct 04 09:45:59 BRT 2012]; root of context hierarchy
+[INFO] [04-10-2012 09:49:35] [Timer-1] [DefaultLifecycleProcessor:349] Stopping beans in phase 2147483647
+[INFO] [04-10-2012 09:49:35] [Timer-1] [QuartzScheduler:496] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+[INFO] [04-10-2012 09:49:35] [Timer-1] [DefaultListableBeanFactory:433] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1f1cbf6: defining beans [taskLeituraPasta,leitorPasta,servicoEnvioXMLTerceiros,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,loadTimeWeaver,configPrincipal,log4jInitializer,jobLeitor,nfeEntradaTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+[INFO] [04-10-2012 09:49:35] [Timer-1] [SchedulerFactoryBean:758] Shutting down Quartz Scheduler
+[INFO] [04-10-2012 09:49:35] [Timer-1] [QuartzScheduler:570] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutting down.
+[INFO] [04-10-2012 09:49:35] [Timer-1] [QuartzScheduler:496] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+[INFO] [04-10-2012 09:49:35] [Timer-1] [QuartzScheduler:621] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutdown complete.
+[INFO] [04-10-2012 09:49:35] [Timer-1] [ContextLoaderListener:60] Application context succesfully closed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml))
+[INFO] [04-10-2012 09:49:35] [OSGi Console] [SystemStartUp:148] Finalizando App...
+[INFO] [04-10-2012 11:25:20] [OSGi Console] [ClassPathXmlApplicationContext:500] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c5f519: startup date [Thu Oct 04 11:25:20 BRT 2012]; root of context hierarchy
+[WARN] [04-10-2012 11:25:20] [OSGi Console] [PathMatchingResourcePatternResolver:530] Cannot search for matching files underneath URL [bundleresource://16.fwk17008065/] because it does not correspond to a directory in the file system
+java.io.FileNotFoundException: URL [bundleresource://16.fwk17008065/] cannot be resolved to absolute file path because it does not reside in the file system: bundleresource://16.fwk17008065/
+	at org.springframework.util.ResourceUtils.getFile(ResourceUtils.java:205)
+	at org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:52)
+	at org.springframework.core.io.UrlResource.getFile(UrlResource.java:169)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.doFindPathMatchingFileResources(PathMatchingResourcePatternResolver.java:526)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:347)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:266)
+	at org.springframework.context.support.AbstractApplicationContext.getResources(AbstractApplicationContext.java:1250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:127)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:527)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:441)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at br.com.pwc.main.SystemStartUp.carregarContextoSpring(SystemStartUp.java:115)
+	at br.com.pwc.main.SystemStartUp.<init>(SystemStartUp.java:34)
+	at br.com.pwc.main.Activator.start(Activator.java:11)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:276)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandProvider._start(FrameworkCommandProvider.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandInterpreter.execute(FrameworkCommandInterpreter.java:155)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.docommand(FrameworkConsole.java:156)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.runConsole(FrameworkConsole.java:141)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.run(FrameworkConsole.java:105)
+	at java.lang.Thread.run(Unknown Source)
+[INFO] [04-10-2012 11:25:20] [OSGi Console] [DefaultListableBeanFactory:581] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@158c352: defining beans []; root of factory hierarchy
+[INFO] [04-10-2012 11:25:20] [OSGi Console] [SystemStartUp:117] Leu o application context
+[INFO] [04-10-2012 11:25:20] [OSGi Console] [DefaultOsgiApplicationContextCreator:67] Discovered configurations {osgibundle:/META-INF/spring/*.xml} in bundle [nfe-integrador-xml (nfe-integrador-xml)]
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-3] [OsgiBundleXmlApplicationContext:500] Refreshing OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml): startup date [Thu Oct 04 11:25:20 BRT 2012]; root of context hierarchy
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-3] [OsgiBundleXmlApplicationContext:365] Application Context service already unpublished
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-3] [XmlBeanDefinitionReader:315] Loading XML bean definitions from URL [bundleentry://64.fwk17008065/META-INF/spring/applicationContext.xml]
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-3] [DependencyWaiterApplicationContextExecutor:243] No outstanding OSGi service dependencies, completing initialization for OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml)
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [DefaultListableBeanFactory:581] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1501d95: defining beans [taskLeituraPasta,leitorPasta,servicoEnvioXMLTerceiros,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,loadTimeWeaver,configPrincipal,log4jInitializer,jobLeitor,nfeEntradaTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [PropertiesFactoryBean:177] Loading properties file from OSGi resource[configXML.properties|bnd.id=64|bnd.sym=nfe-integrador-xml]
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [SchedulerSignalerImpl:63] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [QuartzScheduler:215] Quartz Scheduler v.1.6.2 created.
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [RAMJobStore:141] RAMJobStore initialized.
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [StdSchedulerFactory:1224] Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [StdSchedulerFactory:1228] Quartz scheduler version: 1.6.2
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [QuartzScheduler:2094] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@9fa0cd
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [DefaultLifecycleProcessor:334] Starting beans in phase 2147483647
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [SchedulerFactoryBean:648] Starting Quartz Scheduler now
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [QuartzScheduler:461] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [OsgiBundleXmlApplicationContext:327] Publishing application context as OSGi service with properties {org.springframework.context.service.name=nfe-integrador-xml, Bundle-SymbolicName=nfe-integrador-xml, Bundle-Version=0.0.1.SNAPSHOT}
+[INFO] [04-10-2012 11:25:20] [SpringOsgiExtenderThread-4] [ContextLoaderListener:45] Application context successfully refreshed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml))
+[INFO] [04-10-2012 11:25:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 11:25:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:25:25] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:25:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 11:25:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:25:30] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:25:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 11:25:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:25:35] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:25:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 11:25:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:25:40] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:25:41] [Timer-1] [OsgiBundleXmlApplicationContext:359] Unpublishing application context OSGi service for bundle nfe-integrador-xml (nfe-integrador-xml)
+[INFO] [04-10-2012 11:25:41] [Timer-1] [OsgiBundleXmlApplicationContext:1025] Closing OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml): startup date [Thu Oct 04 11:25:20 BRT 2012]; root of context hierarchy
+[INFO] [04-10-2012 11:25:41] [Timer-1] [DefaultLifecycleProcessor:349] Stopping beans in phase 2147483647
+[INFO] [04-10-2012 11:25:41] [Timer-1] [QuartzScheduler:496] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+[INFO] [04-10-2012 11:25:41] [Timer-1] [DefaultListableBeanFactory:433] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1501d95: defining beans [taskLeituraPasta,leitorPasta,servicoEnvioXMLTerceiros,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,loadTimeWeaver,configPrincipal,log4jInitializer,jobLeitor,nfeEntradaTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+[INFO] [04-10-2012 11:25:41] [Timer-1] [SchedulerFactoryBean:758] Shutting down Quartz Scheduler
+[INFO] [04-10-2012 11:25:41] [Timer-1] [QuartzScheduler:570] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutting down.
+[INFO] [04-10-2012 11:25:41] [Timer-1] [QuartzScheduler:496] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+[INFO] [04-10-2012 11:25:41] [Timer-1] [QuartzScheduler:621] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutdown complete.
+[INFO] [04-10-2012 11:25:41] [Timer-1] [ContextLoaderListener:60] Application context succesfully closed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml))
+[INFO] [04-10-2012 11:25:41] [OSGi Console] [SystemStartUp:148] Finalizando App...
+[INFO] [04-10-2012 11:26:48] [OSGi Console] [ClassPathXmlApplicationContext:500] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8a70dd: startup date [Thu Oct 04 11:26:48 BRT 2012]; root of context hierarchy
+[WARN] [04-10-2012 11:26:48] [OSGi Console] [PathMatchingResourcePatternResolver:530] Cannot search for matching files underneath URL [bundleresource://16.fwk17008065/] because it does not correspond to a directory in the file system
+java.io.FileNotFoundException: URL [bundleresource://16.fwk17008065/] cannot be resolved to absolute file path because it does not reside in the file system: bundleresource://16.fwk17008065/
+	at org.springframework.util.ResourceUtils.getFile(ResourceUtils.java:205)
+	at org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:52)
+	at org.springframework.core.io.UrlResource.getFile(UrlResource.java:169)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.doFindPathMatchingFileResources(PathMatchingResourcePatternResolver.java:526)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:347)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:266)
+	at org.springframework.context.support.AbstractApplicationContext.getResources(AbstractApplicationContext.java:1250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:127)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:527)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:441)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at br.com.pwc.main.SystemStartUp.carregarContextoSpring(SystemStartUp.java:115)
+	at br.com.pwc.main.SystemStartUp.<init>(SystemStartUp.java:34)
+	at br.com.pwc.main.Activator.start(Activator.java:11)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:276)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandProvider._start(FrameworkCommandProvider.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandInterpreter.execute(FrameworkCommandInterpreter.java:155)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.docommand(FrameworkConsole.java:156)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.runConsole(FrameworkConsole.java:141)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.run(FrameworkConsole.java:105)
+	at java.lang.Thread.run(Unknown Source)
+[INFO] [04-10-2012 11:26:48] [OSGi Console] [DefaultListableBeanFactory:581] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8d294e: defining beans []; root of factory hierarchy
+[INFO] [04-10-2012 11:26:48] [OSGi Console] [SystemStartUp:117] Leu o application context
+[INFO] [04-10-2012 11:26:48] [OSGi Console] [DefaultOsgiApplicationContextCreator:67] Discovered configurations {osgibundle:/META-INF/spring/*.xml} in bundle [nfe-integrador-xml (nfe-integrador-xml)]
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-5] [OsgiBundleXmlApplicationContext:500] Refreshing OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml): startup date [Thu Oct 04 11:26:48 BRT 2012]; root of context hierarchy
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-5] [OsgiBundleXmlApplicationContext:365] Application Context service already unpublished
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-5] [XmlBeanDefinitionReader:315] Loading XML bean definitions from URL [bundleentry://64.fwk17008065/META-INF/spring/applicationContext.xml]
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-5] [DependencyWaiterApplicationContextExecutor:243] No outstanding OSGi service dependencies, completing initialization for OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml)
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [DefaultListableBeanFactory:581] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1adb42c: defining beans [taskLeituraPasta,leitorPasta,servicoEnvioXMLTerceiros,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,loadTimeWeaver,configPrincipal,log4jInitializer,jobLeitor,nfeEntradaTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [PropertiesFactoryBean:177] Loading properties file from OSGi resource[configXML.properties|bnd.id=64|bnd.sym=nfe-integrador-xml]
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [SchedulerSignalerImpl:63] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [QuartzScheduler:215] Quartz Scheduler v.1.6.2 created.
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [RAMJobStore:141] RAMJobStore initialized.
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [StdSchedulerFactory:1224] Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [StdSchedulerFactory:1228] Quartz scheduler version: 1.6.2
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [QuartzScheduler:2094] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@16f530a
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [DefaultLifecycleProcessor:334] Starting beans in phase 2147483647
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [SchedulerFactoryBean:648] Starting Quartz Scheduler now
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [QuartzScheduler:461] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [OsgiBundleXmlApplicationContext:327] Publishing application context as OSGi service with properties {org.springframework.context.service.name=nfe-integrador-xml, Bundle-SymbolicName=nfe-integrador-xml, Bundle-Version=0.0.1.SNAPSHOT}
+[INFO] [04-10-2012 11:26:48] [SpringOsgiExtenderThread-6] [ContextLoaderListener:45] Application context successfully refreshed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml))
+[INFO] [04-10-2012 11:26:53] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 11:26:53] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:26:53] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:26:58] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 11:26:58] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:26:58] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:27:03] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 11:27:03] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:27:03] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:27:08] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 11:27:08] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:27:08] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:27:13] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 11:27:13] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:27:13] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:27:18] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [04-10-2012 11:27:18] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:27:18] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:73] Termino do envio do XML para o portal NFe 
+[INFO] [04-10-2012 11:27:21] [Timer-1] [OsgiBundleXmlApplicationContext:359] Unpublishing application context OSGi service for bundle nfe-integrador-xml (nfe-integrador-xml)
+[INFO] [04-10-2012 11:27:21] [Timer-1] [OsgiBundleXmlApplicationContext:1025] Closing OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml): startup date [Thu Oct 04 11:26:48 BRT 2012]; root of context hierarchy
+[INFO] [04-10-2012 11:27:21] [Timer-1] [DefaultLifecycleProcessor:349] Stopping beans in phase 2147483647
+[INFO] [04-10-2012 11:27:21] [Timer-1] [QuartzScheduler:496] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+[INFO] [04-10-2012 11:27:21] [Timer-1] [DefaultListableBeanFactory:433] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1adb42c: defining beans [taskLeituraPasta,leitorPasta,servicoEnvioXMLTerceiros,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,loadTimeWeaver,configPrincipal,log4jInitializer,jobLeitor,nfeEntradaTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+[INFO] [04-10-2012 11:27:21] [Timer-1] [SchedulerFactoryBean:758] Shutting down Quartz Scheduler
+[INFO] [04-10-2012 11:27:21] [Timer-1] [QuartzScheduler:570] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutting down.
+[INFO] [04-10-2012 11:27:21] [Timer-1] [QuartzScheduler:496] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+[INFO] [04-10-2012 11:27:21] [Timer-1] [QuartzScheduler:621] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutdown complete.
+[INFO] [04-10-2012 11:27:21] [Timer-1] [ContextLoaderListener:60] Application context succesfully closed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml))
+[INFO] [04-10-2012 11:27:21] [OSGi Console] [SystemStartUp:148] Finalizando App...

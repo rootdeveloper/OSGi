@@ -1,0 +1,19 @@
+[INFO] [03-10-2012 14:02:42] [Start Level Event Dispatcher] [SystemStartUp:58] *******************************************************************************
+[INFO] [03-10-2012 14:02:42] [Start Level Event Dispatcher] [SystemStartUp:59] ***********************  Integrador XML   Versão: 1.0.0	  *********************
+[INFO] [03-10-2012 14:02:42] [Start Level Event Dispatcher] [SystemStartUp:61] *******************************************************************************
+[INFO] [03-10-2012 14:02:42] [Start Level Event Dispatcher] [SystemStartUp:27] Carregando as configurações basicas do sistema...           
+[INFO] [03-10-2012 14:02:42] [Start Level Event Dispatcher] [SystemStartUp:29] Configurações basicas carregadas com sucesso! 
+[INFO] [03-10-2012 14:02:42] [Start Level Event Dispatcher] [SystemStartUp:34] Carregando o contexto do spring
+[INFO] [03-10-2012 14:02:42] [Start Level Event Dispatcher] [SystemStartUp$1:500] Refreshing br.com.pwc.main.SystemStartUp$1@b61fd1: startup date [Wed Oct 03 14:02:42 BRT 2012]; root of context hierarchy
+[INFO] [03-10-2012 14:02:42] [Start Level Event Dispatcher] [XmlBeanDefinitionReader:315] Loading XML bean definitions from file [C:\Users\daniel.santos\Desktop\Equinox\config\applicationContext.xml]
+[INFO] [03-10-2012 14:03:02] [OSGi Console] [SystemStartUp:58] *******************************************************************************
+[INFO] [03-10-2012 14:03:02] [OSGi Console] [SystemStartUp:59] ***********************  Integrador XML   Versão: 1.0.0	  *********************
+[INFO] [03-10-2012 14:03:02] [OSGi Console] [SystemStartUp:61] *******************************************************************************
+[INFO] [03-10-2012 14:03:02] [OSGi Console] [SystemStartUp:27] Carregando as configurações basicas do sistema...           
+[INFO] [03-10-2012 14:03:02] [OSGi Console] [SystemStartUp:29] Configurações basicas carregadas com sucesso! 
+[INFO] [03-10-2012 14:03:02] [OSGi Console] [SystemStartUp:34] Carregando o contexto do spring
+[INFO] [03-10-2012 14:03:02] [OSGi Console] [SystemStartUp$1:500] Refreshing br.com.pwc.main.SystemStartUp$1@17494c8: startup date [Wed Oct 03 14:03:02 BRT 2012]; root of context hierarchy
+[INFO] [03-10-2012 14:03:02] [OSGi Console] [DefaultListableBeanFactory:581] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e1dadb: defining beans []; root of factory hierarchy
+[INFO] [03-10-2012 14:03:02] [OSGi Console] [SystemStartUp:125] Leu o application context
+[INFO] [03-10-2012 14:03:02] [OSGi Console] [SystemStartUp:36] Contexto do spring carregado com sucesso...
+[INFO] [03-10-2012 15:26:00] [OSGi Console] [SystemStartUp:156] Finalizando App...

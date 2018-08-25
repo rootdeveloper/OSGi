@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/util 
+        http://www.springframework.org/schema/util/spring-util-3.1.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+	
+	<context:component-scan base-package="br.com.pwc.*" />
+	
+	<context:load-time-weaver weaver-class="org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver" />
+		
+	<util:properties id="configPrincipal" location="file:./config/emailNFe.properties"/>
+	
+	<bean id="log4jInitializer" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+		<property name="staticMethod">
+			<value>org.springframework.util.Log4jConfigurer.initLogging</value>
+		</property>
+		<property name="arguments">
+			<list>
+				<value>${user.dir}/config/log4jIntegradorEmail.properties</value>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="loadAccount" scope="singleton" class="br.com.pwc.nfe.integracao.mail.LoadAccounts" init-method="loadConfig">
+		<constructor-arg type="java.util.Properties" ref="configPrincipal"/>
+	</bean>
+
+	<bean id="loadTray" scope="singleton" class="br.com.pwc.nfe.integracao.mail.tray.TraySystem" init-method="loadTray" />
+	
+	<bean id="jobLeitor" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="runJobTask"/>
+		<property name="targetMethod" value="execute"/>
+	</bean>
+	<bean id="integracaoMailTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+		<property name="jobDetail" ref="jobLeitor" />
+		<property name="startDelay" value="#{configPrincipal.delay}" />
+		<property name="repeatInterval" value="#{configPrincipal.intervalo}" />
+	</bean>
+	
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref bean="integracaoMailTrigger" />
+			</list>
+		</property>
+	</bean> 
+	
+</beans>

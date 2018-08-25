@@ -1,0 +1,381 @@
+[INFO] [10-10-2012 14:24:52] [SpringOsgiExtenderThread-2] [SchedulerSignalerImpl:63] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO] [10-10-2012 14:24:52] [SpringOsgiExtenderThread-2] [QuartzScheduler:215] Quartz Scheduler v.1.6.2 created.
+[INFO] [10-10-2012 14:24:52] [SpringOsgiExtenderThread-2] [RAMJobStore:141] RAMJobStore initialized.
+[INFO] [10-10-2012 14:24:52] [SpringOsgiExtenderThread-2] [StdSchedulerFactory:1224] Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+[INFO] [10-10-2012 14:24:52] [SpringOsgiExtenderThread-2] [StdSchedulerFactory:1228] Quartz scheduler version: 1.6.2
+[INFO] [10-10-2012 14:24:52] [SpringOsgiExtenderThread-2] [QuartzScheduler:2094] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@116318b
+[INFO] [10-10-2012 14:24:52] [SpringOsgiExtenderThread-2] [DefaultLifecycleProcessor:334] Starting beans in phase 2147483647
+[INFO] [10-10-2012 14:24:52] [SpringOsgiExtenderThread-2] [SchedulerFactoryBean:648] Starting Quartz Scheduler now
+[INFO] [10-10-2012 14:24:52] [SpringOsgiExtenderThread-2] [QuartzScheduler:461] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+[INFO] [10-10-2012 14:24:52] [SpringOsgiExtenderThread-2] [OsgiBundleXmlApplicationContext:327] Publishing application context as OSGi service with properties {org.springframework.context.service.name=nfe-integrador-xml, Bundle-SymbolicName=nfe-integrador-xml, Bundle-Version=0.0.1.SNAPSHOT}
+[INFO] [10-10-2012 14:24:52] [SpringOsgiExtenderThread-2] [ContextLoaderListener:45] Application context successfully refreshed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml))
+[INFO] [10-10-2012 14:24:57] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [10-10-2012 14:24:57] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[ERROR] [10-10-2012 14:24:57] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-1] [LeitorPasta:76] Erro ao enviar o XML para o portal NFe 
+java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:293)
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:378)
+	at org.apache.commons.io.FileUtils.iterateFiles(FileUtils.java:396)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.enviaXMLTerceiros(LeitorPasta.java:55)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.lerPastas(LeitorPasta.java:42)
+	at br.com.pwc.nfe.integrador.TaskLeituraPasta.execute(TaskLeituraPasta.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:273)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:311)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:113)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:525)
+[INFO] [10-10-2012 14:25:02] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [10-10-2012 14:25:02] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[ERROR] [10-10-2012 14:25:02] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-2] [LeitorPasta:76] Erro ao enviar o XML para o portal NFe 
+java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:293)
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:378)
+	at org.apache.commons.io.FileUtils.iterateFiles(FileUtils.java:396)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.enviaXMLTerceiros(LeitorPasta.java:55)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.lerPastas(LeitorPasta.java:42)
+	at br.com.pwc.nfe.integrador.TaskLeituraPasta.execute(TaskLeituraPasta.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:273)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:311)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:113)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:525)
+[INFO] [10-10-2012 14:25:07] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [10-10-2012 14:25:07] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[ERROR] [10-10-2012 14:25:07] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-3] [LeitorPasta:76] Erro ao enviar o XML para o portal NFe 
+java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:293)
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:378)
+	at org.apache.commons.io.FileUtils.iterateFiles(FileUtils.java:396)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.enviaXMLTerceiros(LeitorPasta.java:55)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.lerPastas(LeitorPasta.java:42)
+	at br.com.pwc.nfe.integrador.TaskLeituraPasta.execute(TaskLeituraPasta.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:273)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:311)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:113)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:525)
+[INFO] [10-10-2012 14:25:12] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [10-10-2012 14:25:12] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[ERROR] [10-10-2012 14:25:12] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-4] [LeitorPasta:76] Erro ao enviar o XML para o portal NFe 
+java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:293)
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:378)
+	at org.apache.commons.io.FileUtils.iterateFiles(FileUtils.java:396)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.enviaXMLTerceiros(LeitorPasta.java:55)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.lerPastas(LeitorPasta.java:42)
+	at br.com.pwc.nfe.integrador.TaskLeituraPasta.execute(TaskLeituraPasta.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:273)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:311)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:113)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:525)
+[INFO] [10-10-2012 14:25:17] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [10-10-2012 14:25:17] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[ERROR] [10-10-2012 14:25:17] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-5] [LeitorPasta:76] Erro ao enviar o XML para o portal NFe 
+java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:293)
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:378)
+	at org.apache.commons.io.FileUtils.iterateFiles(FileUtils.java:396)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.enviaXMLTerceiros(LeitorPasta.java:55)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.lerPastas(LeitorPasta.java:42)
+	at br.com.pwc.nfe.integrador.TaskLeituraPasta.execute(TaskLeituraPasta.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:273)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:311)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:113)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:525)
+[INFO] [10-10-2012 14:25:22] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [TaskLeituraPasta:39] Quartz funcionando!
+[INFO] [10-10-2012 14:25:22] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:53] Iniciando o envio do XML para o portal NFe 
+[ERROR] [10-10-2012 14:25:22] [org.springframework.scheduling.quartz.SchedulerFactoryBean#0_Worker-6] [LeitorPasta:76] Erro ao enviar o XML para o portal NFe 
+java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:293)
+	at org.apache.commons.io.FileUtils.listFiles(FileUtils.java:378)
+	at org.apache.commons.io.FileUtils.iterateFiles(FileUtils.java:396)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.enviaXMLTerceiros(LeitorPasta.java:55)
+	at br.com.pwc.nfe.integrador.listener.LeitorPasta.lerPastas(LeitorPasta.java:42)
+	at br.com.pwc.nfe.integrador.TaskLeituraPasta.execute(TaskLeituraPasta.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.util.MethodInvoker.invoke(MethodInvoker.java:273)
+	at org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean$MethodInvokingJob.executeInternal(MethodInvokingJobDetailFactoryBean.java:311)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:113)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:525)
+[INFO] [10-10-2012 14:25:22] [Timer-1] [OsgiBundleXmlApplicationContext:359] Unpublishing application context OSGi service for bundle nfe-integrador-xml (nfe-integrador-xml)
+[INFO] [10-10-2012 14:25:22] [Timer-1] [OsgiBundleXmlApplicationContext:1025] Closing OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml): startup date [Wed Oct 10 14:24:51 BRT 2012]; root of context hierarchy
+[INFO] [10-10-2012 14:25:22] [Timer-1] [DefaultLifecycleProcessor:349] Stopping beans in phase 2147483647
+[INFO] [10-10-2012 14:25:22] [Timer-1] [QuartzScheduler:496] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+[INFO] [10-10-2012 14:25:22] [Timer-1] [DefaultListableBeanFactory:433] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6db724: defining beans [taskLeituraPasta,leitorPasta,servicoEnvioXMLTerceiros,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,loadTimeWeaver,configPrincipal,log4jInitializer,jobLeitor,nfeEntradaTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+[INFO] [10-10-2012 14:25:22] [Timer-1] [SchedulerFactoryBean:758] Shutting down Quartz Scheduler
+[INFO] [10-10-2012 14:25:22] [Timer-1] [QuartzScheduler:570] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutting down.
+[INFO] [10-10-2012 14:25:22] [Timer-1] [QuartzScheduler:496] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED paused.
+[INFO] [10-10-2012 14:25:22] [Timer-1] [QuartzScheduler:621] Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED shutdown complete.
+[INFO] [10-10-2012 14:25:22] [Timer-1] [ContextLoaderListener:60] Application context succesfully closed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-xml, config=osgibundle:/META-INF/spring/*.xml))
+[INFO] [10-10-2012 14:25:22] [OSGi Console] [SystemStartUp:148] Finalizando App...
+[INFO] [10-10-2012 15:38:38] [OSGi Console] [ClassPathXmlApplicationContext:500] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1f10a67: startup date [Wed Oct 10 15:38:38 BRT 2012]; root of context hierarchy
+[WARN] [10-10-2012 15:38:38] [OSGi Console] [PathMatchingResourcePatternResolver:530] Cannot search for matching files underneath URL [bundleresource://16.fwk28117098/] because it does not correspond to a directory in the file system
+java.io.FileNotFoundException: URL [bundleresource://16.fwk28117098/] cannot be resolved to absolute file path because it does not reside in the file system: bundleresource://16.fwk28117098/
+	at org.springframework.util.ResourceUtils.getFile(ResourceUtils.java:205)
+	at org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:52)
+	at org.springframework.core.io.UrlResource.getFile(UrlResource.java:169)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.doFindPathMatchingFileResources(PathMatchingResourcePatternResolver.java:526)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:347)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:266)
+	at org.springframework.context.support.AbstractApplicationContext.getResources(AbstractApplicationContext.java:1250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:127)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:527)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:441)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at br.com.pwc.integracao.mail.main.SystemStartUp.carregarContextoSpring(SystemStartUp.java:22)
+	at br.com.pwc.integracao.mail.main.SystemStartUp.<init>(SystemStartUp.java:13)
+	at br.com.pwc.integracao.mail.main.Activator.start(Activator.java:14)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:276)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandProvider._start(FrameworkCommandProvider.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandInterpreter.execute(FrameworkCommandInterpreter.java:155)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.docommand(FrameworkConsole.java:156)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.runConsole(FrameworkConsole.java:141)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.run(FrameworkConsole.java:105)
+	at java.lang.Thread.run(Thread.java:619)
+[INFO] [10-10-2012 15:38:38] [OSGi Console] [DefaultListableBeanFactory:581] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a034d: defining beans []; root of factory hierarchy
+[INFO] [10-10-2012 15:38:38] [OSGi Console] [DefaultOsgiApplicationContextCreator:67] Discovered configurations {osgibundle:/META-INF/spring/*.xml} in bundle [nfe-integrador-email (nfe-integrador-email)]
+[INFO] [10-10-2012 15:38:38] [SpringOsgiExtenderThread-3] [OsgiBundleXmlApplicationContext:500] Refreshing OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml): startup date [Wed Oct 10 15:38:38 BRT 2012]; root of context hierarchy
+[INFO] [10-10-2012 15:38:38] [SpringOsgiExtenderThread-3] [OsgiBundleXmlApplicationContext:365] Application Context service already unpublished
+[INFO] [10-10-2012 15:38:38] [SpringOsgiExtenderThread-3] [XmlBeanDefinitionReader:315] Loading XML bean definitions from URL [bundleentry://66.fwk28117098/META-INF/spring/emailNFeApplicationContext.xml]
+[INFO] [10-10-2012 15:38:38] [SpringOsgiExtenderThread-3] [DefaultListableBeanFactory:647] Overriding bean definition for bean 'loadAccount': replacing [Generic bean: class [br.com.pwc.integracao.mail.carteiro.LoadAccount]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [bundleresource://66.fwk28117098/br/com/pwc/integracao/mail/carteiro/LoadAccount.class]] with [Generic bean: class [br.com.pwc.integracao.mail.carteiro.LoadAccount]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [bundleentry://66.fwk28117098/META-INF/spring/emailNFeApplicationContext.xml]]
+[INFO] [10-10-2012 15:38:38] [SpringOsgiExtenderThread-3] [DependencyWaiterApplicationContextExecutor:243] No outstanding OSGi service dependencies, completing initialization for OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml)
+[INFO] [10-10-2012 15:38:38] [SpringOsgiExtenderThread-4] [DefaultListableBeanFactory:581] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a8dfb3: defining beans [carteiro,loadAccount,runMeTask,readMailBox,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,loadTimeWeaver,configPrincipal,log4jInitializer,jobLeitor,IntegracaoMailTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+[ERROR] [10-10-2012 15:38:38] [SpringOsgiExtenderThread-4] [ContextLoaderListener:50] Application context refresh failed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml))
+java.lang.NoClassDefFoundError: javax/mail/NoSuchProviderException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2389)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1836)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:962)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:935)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.access$1600(AbstractDelegatedExecutionApplicationContext.java:69)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$4.run(AbstractDelegatedExecutionApplicationContext.java:355)
+	at org.springframework.osgi.util.internal.PrivilegedUtils.executeWithCustomTCCL(PrivilegedUtils.java:85)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.completeRefresh(AbstractDelegatedExecutionApplicationContext.java:320)
+	at org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor$CompleteRefreshTask.run(DependencyWaiterApplicationContextExecutor.java:132)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.ClassNotFoundException: javax.mail.NoSuchProviderException
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	... 20 more
+[INFO] [10-10-2012 15:39:33] [Timer-1] [OsgiBundleXmlApplicationContext:365] Application Context service already unpublished
+[INFO] [10-10-2012 15:39:33] [Timer-1] [OsgiBundleXmlApplicationContext:1025] Closing OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml): startup date [Wed Oct 10 15:38:38 BRT 2012]; root of context hierarchy
+[WARN] [10-10-2012 15:39:33] [Timer-1] [OsgiBundleXmlApplicationContext:1041] Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml): startup date [Wed Oct 10 15:38:38 BRT 2012]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:350)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1038)
+	at org.springframework.osgi.context.support.AbstractOsgiBundleApplicationContext.doClose(AbstractOsgiBundleApplicationContext.java:197)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.access$501(AbstractDelegatedExecutionApplicationContext.java:69)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$2.run(AbstractDelegatedExecutionApplicationContext.java:214)
+	at org.springframework.osgi.util.internal.PrivilegedUtils.executeWithCustomTCCL(PrivilegedUtils.java:85)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.normalClose(AbstractDelegatedExecutionApplicationContext.java:210)
+	at org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor.close(DependencyWaiterApplicationContextExecutor.java:374)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.doClose(AbstractDelegatedExecutionApplicationContext.java:236)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:993)
+	at org.springframework.osgi.extender.internal.activator.ContextLoaderListener$3.run(ContextLoaderListener.java:805)
+	at org.springframework.osgi.extender.internal.util.concurrent.RunnableTimedExecution$MonitoredRunnable.run(RunnableTimedExecution.java:60)
+	at org.springframework.scheduling.timer.DelegatingTimerTask.run(DelegatingTimerTask.java:70)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+[INFO] [10-10-2012 15:39:33] [Timer-1] [DefaultListableBeanFactory:433] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a8dfb3: defining beans [carteiro,loadAccount,runMeTask,readMailBox,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,loadTimeWeaver,configPrincipal,log4jInitializer,jobLeitor,IntegracaoMailTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+[INFO] [10-10-2012 15:39:33] [Timer-1] [ContextLoaderListener:60] Application context succesfully closed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml))
+[INFO] [10-10-2012 15:42:15] [OSGi Console] [ClassPathXmlApplicationContext:500] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1107c05: startup date [Wed Oct 10 15:42:15 BRT 2012]; root of context hierarchy
+[WARN] [10-10-2012 15:42:15] [OSGi Console] [PathMatchingResourcePatternResolver:530] Cannot search for matching files underneath URL [bundleresource://16.fwk28117098/] because it does not correspond to a directory in the file system
+java.io.FileNotFoundException: URL [bundleresource://16.fwk28117098/] cannot be resolved to absolute file path because it does not reside in the file system: bundleresource://16.fwk28117098/
+	at org.springframework.util.ResourceUtils.getFile(ResourceUtils.java:205)
+	at org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:52)
+	at org.springframework.core.io.UrlResource.getFile(UrlResource.java:169)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.doFindPathMatchingFileResources(PathMatchingResourcePatternResolver.java:526)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:347)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:266)
+	at org.springframework.context.support.AbstractApplicationContext.getResources(AbstractApplicationContext.java:1250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:127)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:527)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:441)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at br.com.pwc.integracao.mail.main.SystemStartUp.carregarContextoSpring(SystemStartUp.java:22)
+	at br.com.pwc.integracao.mail.main.SystemStartUp.<init>(SystemStartUp.java:13)
+	at br.com.pwc.integracao.mail.main.Activator.start(Activator.java:14)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:276)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandProvider._start(FrameworkCommandProvider.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandInterpreter.execute(FrameworkCommandInterpreter.java:155)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.docommand(FrameworkConsole.java:156)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.runConsole(FrameworkConsole.java:141)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.run(FrameworkConsole.java:105)
+	at java.lang.Thread.run(Thread.java:619)
+[INFO] [10-10-2012 15:42:15] [OSGi Console] [DefaultListableBeanFactory:581] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3da850: defining beans []; root of factory hierarchy
+[INFO] [10-10-2012 15:42:15] [OSGi Console] [DefaultOsgiApplicationContextCreator:67] Discovered configurations {osgibundle:/META-INF/spring/*.xml} in bundle [nfe-integrador-email (nfe-integrador-email)]
+[INFO] [10-10-2012 15:42:15] [SpringOsgiExtenderThread-5] [OsgiBundleXmlApplicationContext:500] Refreshing OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml): startup date [Wed Oct 10 15:42:15 BRT 2012]; root of context hierarchy
+[INFO] [10-10-2012 15:42:15] [SpringOsgiExtenderThread-5] [OsgiBundleXmlApplicationContext:365] Application Context service already unpublished
+[INFO] [10-10-2012 15:42:15] [SpringOsgiExtenderThread-5] [XmlBeanDefinitionReader:315] Loading XML bean definitions from URL [bundleentry://66.fwk28117098/META-INF/spring/emailNFeApplicationContext.xml]
+[INFO] [10-10-2012 15:42:15] [SpringOsgiExtenderThread-5] [DefaultListableBeanFactory:647] Overriding bean definition for bean 'loadAccount': replacing [Generic bean: class [br.com.pwc.integracao.mail.carteiro.LoadAccount]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [bundleresource://66.fwk28117098/br/com/pwc/integracao/mail/carteiro/LoadAccount.class]] with [Generic bean: class [br.com.pwc.integracao.mail.carteiro.LoadAccount]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [bundleentry://66.fwk28117098/META-INF/spring/emailNFeApplicationContext.xml]]
+[INFO] [10-10-2012 15:42:15] [SpringOsgiExtenderThread-5] [DependencyWaiterApplicationContextExecutor:243] No outstanding OSGi service dependencies, completing initialization for OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml)
+[INFO] [10-10-2012 15:42:15] [SpringOsgiExtenderThread-6] [DefaultListableBeanFactory:581] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b52a28: defining beans [carteiro,loadAccount,runMeTask,readMailBox,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,loadTimeWeaver,configPrincipal,log4jInitializer,jobLeitor,IntegracaoMailTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+[ERROR] [10-10-2012 15:42:15] [SpringOsgiExtenderThread-6] [ContextLoaderListener:50] Application context refresh failed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml))
+java.lang.NoClassDefFoundError: javax/mail/NoSuchProviderException
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2389)
+	at java.lang.Class.getDeclaredConstructors(Class.java:1836)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:962)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:935)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.access$1600(AbstractDelegatedExecutionApplicationContext.java:69)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$4.run(AbstractDelegatedExecutionApplicationContext.java:355)
+	at org.springframework.osgi.util.internal.PrivilegedUtils.executeWithCustomTCCL(PrivilegedUtils.java:85)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.completeRefresh(AbstractDelegatedExecutionApplicationContext.java:320)
+	at org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor$CompleteRefreshTask.run(DependencyWaiterApplicationContextExecutor.java:132)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.ClassNotFoundException: javax.mail.NoSuchProviderException
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	... 20 more
+[INFO] [10-10-2012 15:47:35] [Timer-1] [OsgiBundleXmlApplicationContext:365] Application Context service already unpublished
+[INFO] [10-10-2012 15:47:35] [Timer-1] [OsgiBundleXmlApplicationContext:1025] Closing OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml): startup date [Wed Oct 10 15:42:15 BRT 2012]; root of context hierarchy
+[WARN] [10-10-2012 15:47:35] [Timer-1] [OsgiBundleXmlApplicationContext:1041] Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml): startup date [Wed Oct 10 15:42:15 BRT 2012]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:350)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1038)
+	at org.springframework.osgi.context.support.AbstractOsgiBundleApplicationContext.doClose(AbstractOsgiBundleApplicationContext.java:197)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.access$501(AbstractDelegatedExecutionApplicationContext.java:69)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext$2.run(AbstractDelegatedExecutionApplicationContext.java:214)
+	at org.springframework.osgi.util.internal.PrivilegedUtils.executeWithCustomTCCL(PrivilegedUtils.java:85)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.normalClose(AbstractDelegatedExecutionApplicationContext.java:210)
+	at org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor.close(DependencyWaiterApplicationContextExecutor.java:374)
+	at org.springframework.osgi.context.support.AbstractDelegatedExecutionApplicationContext.doClose(AbstractDelegatedExecutionApplicationContext.java:236)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:993)
+	at org.springframework.osgi.extender.internal.activator.ContextLoaderListener$3.run(ContextLoaderListener.java:805)
+	at org.springframework.osgi.extender.internal.util.concurrent.RunnableTimedExecution$MonitoredRunnable.run(RunnableTimedExecution.java:60)
+	at org.springframework.scheduling.timer.DelegatingTimerTask.run(DelegatingTimerTask.java:70)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+[INFO] [10-10-2012 15:47:35] [Timer-1] [DefaultListableBeanFactory:433] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b52a28: defining beans [carteiro,loadAccount,runMeTask,readMailBox,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,loadTimeWeaver,configPrincipal,log4jInitializer,jobLeitor,IntegracaoMailTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+[INFO] [10-10-2012 15:47:35] [Timer-1] [ContextLoaderListener:60] Application context succesfully closed (OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml))
+[INFO] [10-10-2012 15:47:54] [OSGi Console] [ClassPathXmlApplicationContext:500] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@12d7d02: startup date [Wed Oct 10 15:47:54 BRT 2012]; root of context hierarchy
+[WARN] [10-10-2012 15:47:54] [OSGi Console] [PathMatchingResourcePatternResolver:530] Cannot search for matching files underneath URL [bundleresource://16.fwk28117098/] because it does not correspond to a directory in the file system
+java.io.FileNotFoundException: URL [bundleresource://16.fwk28117098/] cannot be resolved to absolute file path because it does not reside in the file system: bundleresource://16.fwk28117098/
+	at org.springframework.util.ResourceUtils.getFile(ResourceUtils.java:205)
+	at org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:52)
+	at org.springframework.core.io.UrlResource.getFile(UrlResource.java:169)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.doFindPathMatchingFileResources(PathMatchingResourcePatternResolver.java:526)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:347)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:266)
+	at org.springframework.context.support.AbstractApplicationContext.getResources(AbstractApplicationContext.java:1250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:127)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:527)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:441)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at br.com.pwc.integracao.mail.main.SystemStartUp.carregarContextoSpring(SystemStartUp.java:22)
+	at br.com.pwc.integracao.mail.main.SystemStartUp.<init>(SystemStartUp.java:13)
+	at br.com.pwc.integracao.mail.main.Activator.start(Activator.java:14)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:783)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:774)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:755)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:370)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:276)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandProvider._start(FrameworkCommandProvider.java:252)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandInterpreter.execute(FrameworkCommandInterpreter.java:155)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.docommand(FrameworkConsole.java:156)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.runConsole(FrameworkConsole.java:141)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.run(FrameworkConsole.java:105)
+	at java.lang.Thread.run(Thread.java:619)
+[INFO] [10-10-2012 15:47:54] [OSGi Console] [DefaultListableBeanFactory:581] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17af46e: defining beans []; root of factory hierarchy
+[INFO] [10-10-2012 15:47:54] [OSGi Console] [DefaultOsgiApplicationContextCreator:67] Discovered configurations {osgibundle:/META-INF/spring/*.xml} in bundle [nfe-integrador-email (nfe-integrador-email)]
+[INFO] [10-10-2012 15:47:54] [SpringOsgiExtenderThread-7] [OsgiBundleXmlApplicationContext:500] Refreshing OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml): startup date [Wed Oct 10 15:47:54 BRT 2012]; root of context hierarchy
+[INFO] [10-10-2012 15:47:54] [SpringOsgiExtenderThread-7] [OsgiBundleXmlApplicationContext:365] Application Context service already unpublished
+[INFO] [10-10-2012 15:47:54] [SpringOsgiExtenderThread-7] [XmlBeanDefinitionReader:315] Loading XML bean definitions from URL [bundleentry://68.fwk28117098/META-INF/spring/applicationContext.xml]
+[INFO] [10-10-2012 15:47:54] [SpringOsgiExtenderThread-7] [DefaultListableBeanFactory:647] Overriding bean definition for bean 'loadAccount': replacing [Generic bean: class [br.com.pwc.integracao.mail.carteiro.LoadAccount]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [bundleresource://68.fwk28117098/br/com/pwc/integracao/mail/carteiro/LoadAccount.class]] with [Generic bean: class [br.com.pwc.integracao.mail.carteiro.LoadAccount]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [bundleentry://68.fwk28117098/META-INF/spring/applicationContext.xml]]
+[INFO] [10-10-2012 15:47:54] [SpringOsgiExtenderThread-7] [DependencyWaiterApplicationContextExecutor:243] No outstanding OSGi service dependencies, completing initialization for OsgiBundleXmlApplicationContext(bundle=nfe-integrador-email, config=osgibundle:/META-INF/spring/*.xml)
+[INFO] [10-10-2012 15:47:54] [SpringOsgiExtenderThread-8] [DefaultListableBeanFactory:581] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7881db: defining beans [carteiro,loadAccount,runMeTask,readMailBox,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,loadTimeWeaver,configPrincipal,log4jInitializer,jobLeitor,IntegracaoMailTrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+[INFO] [10-10-2012 15:47:54] [SpringOsgiExtenderThread-8] [PropertiesFactoryBean:177] Loading properties file from OSGi resource[emailNFe.properties|bnd.id=68|bnd.sym=nfe-integrador-email]

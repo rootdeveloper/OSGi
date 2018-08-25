@@ -1,0 +1,133 @@
+!SESSION 2012-10-02 14:16:17.689 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.osgi 4 0 2012-10-02 14:16:18.101
+!MESSAGE Application error
+!STACK 1
+java.lang.IllegalStateException: Unable to acquire application service. Ensure that the org.eclipse.core.runtime bundle is resolved and started (see config.ini).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:74)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.main(EclipseStarter.java:150)
+
+!ENTRY nfe-integrador-xml 4 0 2012-10-02 14:21:18.024
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: Exception in br.com.pwc.main.Activator.stop() of bundle nfe-integrador-xml.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:863)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.uninstallWorker(AbstractBundle.java:788)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.uninstall(AbstractBundle.java:768)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandProvider._uninstall(FrameworkCommandProvider.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandInterpreter.execute(FrameworkCommandInterpreter.java:155)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.docommand(FrameworkConsole.java:156)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.runConsole(FrameworkConsole.java:141)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.run(FrameworkConsole.java:105)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at br.com.pwc.main.SystemStartUp.finalizaAplicacao(SystemStartUp.java:155)
+	at br.com.pwc.main.Activator.stop(Activator.java:16)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	... 13 more
+Root exception:
+java.lang.NullPointerException
+	at br.com.pwc.main.SystemStartUp.finalizaAplicacao(SystemStartUp.java:155)
+	at br.com.pwc.main.Activator.stop(Activator.java:16)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.uninstallWorker(AbstractBundle.java:788)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.uninstall(AbstractBundle.java:768)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandProvider._uninstall(FrameworkCommandProvider.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.FrameworkCommandInterpreter.execute(FrameworkCommandInterpreter.java:155)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.docommand(FrameworkConsole.java:156)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.runConsole(FrameworkConsole.java:141)
+	at org.eclipse.osgi.framework.internal.core.FrameworkConsole.run(FrameworkConsole.java:105)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY nfe-integrador-xml 4 0 2012-10-02 14:59:03.718
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: Exception in br.com.pwc.main.Activator.stop() of bundle nfe-integrador-xml.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:863)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.suspendBundle(PackageAdminImpl.java:311)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.processDelta(PackageAdminImpl.java:457)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.doResolveBundles(PackageAdminImpl.java:239)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl$1.run(PackageAdminImpl.java:174)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at br.com.pwc.main.SystemStartUp.finalizaAplicacao(SystemStartUp.java:155)
+	at br.com.pwc.main.Activator.stop(Activator.java:16)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	... 8 more
+Root exception:
+java.lang.NullPointerException
+	at br.com.pwc.main.SystemStartUp.finalizaAplicacao(SystemStartUp.java:155)
+	at br.com.pwc.main.Activator.stop(Activator.java:16)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.suspendBundle(PackageAdminImpl.java:311)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.processDelta(PackageAdminImpl.java:457)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.doResolveBundles(PackageAdminImpl.java:239)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl$1.run(PackageAdminImpl.java:174)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY nfe-integrador-xml 4 0 2012-10-02 15:10:20.788
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: Exception in br.com.pwc.main.Activator.stop() of bundle nfe-integrador-xml.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:863)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.suspendBundle(PackageAdminImpl.java:311)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.processDelta(PackageAdminImpl.java:457)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.doResolveBundles(PackageAdminImpl.java:239)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl$1.run(PackageAdminImpl.java:174)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at br.com.pwc.main.SystemStartUp.finalizaAplicacao(SystemStartUp.java:155)
+	at br.com.pwc.main.Activator.stop(Activator.java:16)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	... 8 more
+Root exception:
+java.lang.NullPointerException
+	at br.com.pwc.main.SystemStartUp.finalizaAplicacao(SystemStartUp.java:155)
+	at br.com.pwc.main.Activator.stop(Activator.java:16)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.suspendBundle(PackageAdminImpl.java:311)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.processDelta(PackageAdminImpl.java:457)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl.doResolveBundles(PackageAdminImpl.java:239)
+	at org.eclipse.osgi.framework.internal.core.PackageAdminImpl$1.run(PackageAdminImpl.java:174)
+	at java.lang.Thread.run(Unknown Source)
